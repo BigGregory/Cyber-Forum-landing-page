@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
-  new WOW().init();
+  new WOW({
+    mobile: false
+  }).init();
 
   $('.collapse').on('show.bs.collapse', function(){
     $(this).prev().find('.fa').removeClass().addClass('fa fa-minus-circle');
