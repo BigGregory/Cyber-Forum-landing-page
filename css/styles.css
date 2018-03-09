@@ -32,7 +32,7 @@ h2 {
   color: #d9d9d9;
 }
 
-/*=========section-header===========*/
+/*========= section-header ===========*/
 .section-header {
   background: url('../img/header.jpg') center no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@ h2 {
 }
 
 
-/*=========section-speakers===========*/
+/*========= section-speakers ===========*/
 .section-speakers {
   padding: 90px 0;
   border-bottom: 2px solid #f0f0f1;
@@ -162,7 +162,7 @@ p.large {
   margin-top: 70px;
 }
 
-/*=========section-events===========*/
+/*========= section-events ===========*/
 .section-events {
   padding: 90px 0;
 }
@@ -237,7 +237,7 @@ ul.nav.nav-tabs {
   margin: 1px;
 }
 
-/*=========section-form===========*/
+/*========= section-form ===========*/
 .section-form {
   padding: 90px 0;
   background: #f3f3f3;
@@ -264,14 +264,20 @@ ul.nav.nav-tabs {
   background: #black;
 }
 
-/*=========section-sponsors===========*/
+/*========= section-sponsors ===========*/
 .section-sponsors {
   background: #fff;
   text-align: center;
   padding: 60px 0;
 }
 
-/*=========section-contacts===========*/
+/*========== section-map ==========*/
+#map {
+   height: 800px;
+   width: auto;
+}
+
+/*========= section-contacts ===========*/
 .section-contacts {
   background: #525b64;
   padding: 70px 0;
@@ -409,6 +415,11 @@ li.select2-results__option:first-child {
   }
   .section-sponsors {
     padding: 20px 0 0;
+  }
+  #map {
+    height: 400px;
+    width: 90%;
+    margin: 10px auto;
   }
 }
 

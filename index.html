@@ -4,24 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- JQery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/validator.js"></script>
-  <script src="js/select2.full.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-  <link href="css/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+
+  <!-- Bootstrap  -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="css/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+
+  <!-- Bootstrap form-validator plugin -->
+  <script src="js/validator.js"></script>
+
+  <!-- Bootstrap Select2 plugin -->
+  <script src="js/select2.full.min.js"></script>
   <link href="css/select2.min.css" rel="stylesheet">
+
+  <!-- WOW animtion library -->
+  <script src="js/wow.min.js"></script>
   <link href="css/animate.css" rel="stylesheet">
+
+  <!-- My scripts and styles -->
+  <script src="js/scripts.js"></script>
   <link href="css/styles.css" rel="stylesheet">
+
   <title>Cyber Forum</title>
 </head>
 <body>
@@ -414,9 +424,7 @@
     </div>
   </section><!-- /.section-sponsors -->
 
-  <section class="section-map">
-    <img src="img/map.jpg" alt="map" width="100%">
-  </section>
+  <section id="map" class="section-map"></section>
 
   <section class="section-contacts">
     <div class="container">
@@ -451,5 +459,8 @@
       <p class="wow fadeInLeft">Copyright &copy; 2018 Cyber Forum</p>
     </div>
   </section><!-- /.section-copyright -->
+  <!-- Google maps API -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2jflrINeJVkyT2QPtIbI8uy4nQcbZqgc&callback=initMap"></script>
+
 </body>
 </html>
