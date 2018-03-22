@@ -1,4 +1,4 @@
-# Cyber-Forum landing page
+># Cyber-Forum landing page
 
 ## Description: 
 Example of landing page you are free to use in your projects
