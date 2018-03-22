@@ -8,5 +8,5 @@ Bootstrap, WOW.js with Animate.css, form validation Bootatrap plugin, select2 Bo
 Google fonts, Google Maps Api, Font Awesome
 
 ### Reference on application:
-<https://biggregory.github.io/Cyber-Forum_landing_page/>
+<https://biggregory.github.io/Cyber-Forum-landing-page/>
 
